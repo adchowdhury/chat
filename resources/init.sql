@@ -1,0 +1,7 @@
+CREATE TABLE `chat` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `USERNAME` varchar(50) DEFAULT NULL,
+  `CHATDATE` datetime DEFAULT NULL,
+  `MSG` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+)
